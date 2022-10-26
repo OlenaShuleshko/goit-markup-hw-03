@@ -35,7 +35,7 @@ a {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  etter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 }
 
 .logo-fotter {
@@ -341,9 +341,6 @@ a {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-}
-
-.projects {
 }
 
 .projects-items {
