@@ -305,9 +305,9 @@ a {
 
 .footer {
   margin-top: 94px;
+  margin-left: 0;
+  margin-right: 0;
   height: 252px;
-  left: 0px;
-  width: 1600px;
   background-color: var(--background-footer-color);
 }
 
