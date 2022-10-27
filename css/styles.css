@@ -383,7 +383,7 @@ a {
 }
 
 .button {
-  background-color: var(--light-color);
+  background-color: var(--buttons-port-color);
   color: var(--secondary-color);
   font-family: inherit;
   font-weight: 500;
