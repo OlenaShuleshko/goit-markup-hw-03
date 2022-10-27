@@ -23,6 +23,12 @@
   margin: 0;
 }
 
+.hero-title,
+.visually-hidden,
+.title {
+  margin: 0%;
+}
+
 body {
   background-color: var(--background-color);
   color: var(--main-text-color);
@@ -52,6 +58,8 @@ a {
   letter-spacing: 0.03em;
   align-items: center;
   margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .logo-fotter {
@@ -81,6 +89,8 @@ a {
 
 .nav-items {
   margin-right: 50px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .site-nav,
@@ -141,27 +151,23 @@ a {
 
 .hero {
   padding-top: 200px;
-  padding-bottom: 280px;
-
+  padding-bottom: 200px;
   background-color: var(--background-footer-color);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   text-align: center;
-  width: 1600px;
 }
-.hero-title {
-  margin-top: 0;
-  margin-left: 452px;
-  margin-right: 452px;
-  padding-top: 200px;
-  padding-bottom: 30px;
 
+.hero-title {
+  margin-left: auto;
+  margin-right: auto;
   color: var(--secondary-text-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
   letter-spacing: 0.06em;
-  text-align: center;
+  text-transform: uppercase;
 }
+
 /*--кнопка замовити послугу--*/
 
 .hero-button {
@@ -206,9 +212,11 @@ a {
   overflow: hidden;
 }
 
-.features-list {
+.features-list,
+.section-list,
+.section-members {
   display: flex;
-  align-items: center;
+  gap: 30px;
 }
 
 .features-items {
@@ -260,15 +268,10 @@ a {
 
 .section-team {
   background-color: var(--buttons-port-color);
-  width: 1600px;
-  height: 648px;
-  left: 0px;
-  top: 1446px;
 }
 
 .team-member {
   width: 270px;
-  height: 260px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
@@ -284,12 +287,13 @@ a {
   letter-spacing: 0.03em;
 }
 
-.section-work,
+.section-work {
+  padding-top: 0;
+  padding-bottom: 94px;
+}
 .section {
-  margin-top: 94px;
-  margin-bottom: 94px;
-  margin-right: 215px;
-  margin-left: 215px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 /*--footer--*/
 
@@ -363,14 +367,14 @@ a {
 .filter-list {
   margin-top: 10px;
   margin-bottom: 35px;
-
+  display: flex;
+  justify-content: center;
+  gap: 8px;
   position: absolute;
   width: 575px;
   height: 54px;
   left: 512px;
   top: 174px;
-
-  justify-content: center;
 }
 
 .button {
@@ -433,11 +437,11 @@ a {
 }
 
 .list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
   padding: 0;
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .projects-items {
