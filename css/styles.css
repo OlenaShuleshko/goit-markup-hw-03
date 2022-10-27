@@ -374,10 +374,10 @@ a {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-  margin-top: 10px;
-  margin-bottom: 35px;
-  gap: 8px;
 }
+/*--  margin-top: 10px;
+  margin-bottom: 35px;
+  gap: 8px;--*/
 
 .button {
   background-color: var(--buttons-port-color);
