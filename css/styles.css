@@ -370,16 +370,13 @@ a {
 
 /*--Кнопки--*/
 
-.filters.list {
-  margin-top: 10px;
-  margin-bottom: 35px;
+.filters-list {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  margin-bottom: 35px;
   gap: 8px;
-  width: 575px;
-  height: 54px;
-  left: 512px;
-  top: 174px;
 }
 
 .button {
