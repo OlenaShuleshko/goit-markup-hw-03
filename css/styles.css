@@ -370,7 +370,7 @@ a {
 
 /*--Кнопки--*/
 
-.filters-list {
+.filters.list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
