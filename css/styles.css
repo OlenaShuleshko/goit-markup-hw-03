@@ -370,7 +370,7 @@ a {
 
 /*--Кнопки--*/
 
-.filters.list {
+.filters {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -390,6 +390,7 @@ a {
   border-width: 0;
   border-radius: 4px;
   cursor: pointer;
+  padding: 6px 22px;
 }
 
 .button:hover {
