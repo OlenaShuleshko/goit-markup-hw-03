@@ -42,8 +42,7 @@ img {
   max-width: 100%;
   height: auto;
 }
-address {
-  // или через класс .footer-address
+.footer-address {
   font-style: normal;
 }
 
@@ -69,7 +68,7 @@ button {
 }
 .link {
   text-decoration: none;
-  // color: inherit;
+  color: inherit;
 }
 
 /*--утилиты--*/
@@ -104,31 +103,28 @@ button {
 .logo-fotter {
   color: var(--background-color);
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
-  margin-top: 60px;
-  margin-left: 215px;
 }
 .web-logo {
   color: var(--acent-color);
 }
 
 /*--header--*/
+.page-header .container {
+  display: flex;
+  align-items: center;
+}
 .page-header {
-  margin-left: 0;
-  margin-right: 0;
-  left: 0px;
-  width: 1600px;
+  border-bottom: 1px solid;
+  background-color: rgba(236, 236, 236, 1);
 }
 .site-nav {
   display: flex;
 }
 
 .nav-items {
-  margin-right: 50px;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -158,7 +154,7 @@ button {
 
 .auth-nav {
   display: flex;
-  margin: auto;
+  margin-left: auto;
 }
 
 .auth-nav .link {
@@ -198,6 +194,7 @@ button {
 }
 
 .hero-title {
+  width: 696px;
   margin-left: auto;
   margin-right: auto;
   color: var(--secondary-text-color);
@@ -264,7 +261,7 @@ button {
   width: 270px;
 }
 
-.title {
+.section-title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -314,8 +311,14 @@ button {
 .team-member {
   width: 270px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 4px 4px;
 }
 
+.member-text {
+  padding: 30px 0;
+  text-align: center;
+  background-color: var(--background-color);
+}
 .members {
   margin-bottom: 10px;
 }
@@ -326,27 +329,19 @@ button {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
+  font-size: 14px;
 }
 
 .section-work {
   padding-top: 0;
   padding-bottom: 94px;
 }
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+
 /*--footer--*/
 
-.list-fotter {
-  margin-top: 20px;
-}
-
 .footer {
-  margin-top: 94px;
-  margin-left: 0;
-  margin-right: 0;
-  height: 252px;
+  padding: 60px 0;
   background-color: var(--background-footer-color);
 }
 
@@ -358,9 +353,11 @@ button {
   line-height: 1.73;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
-  margin-left: 107px;
+  margin-top: 20px;
 }
-
+.adress .item {
+  margin-top: 9px;
+}
 .adress:visited {
   color: var(--footer-text-color);
 }
@@ -370,7 +367,6 @@ button {
   line-height: 1.73;
   letter-spacing: 0.03em;
   color: var(--footer-text-color);
-  margin-left: 215px;
 }
 
 .contacts:hover {
@@ -424,7 +420,7 @@ button {
   font-family: inherit;
   font-weight: 500;
   font-size: var(--secondary-font-size);
-  line-height: 1.6;
+  line-height: 16px;
   letter-spacing: 0.03em;
   border-width: 0;
   border-radius: 4px;
@@ -453,20 +449,7 @@ button {
 
 /*--main--*/
 
-.projects {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-}
-
 .link-cards {
-  border: 1px solid rgba(238, 238, 238, 1);
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
   width: 370px;
 }
 
@@ -479,11 +462,16 @@ button {
 }
 
 .list {
-  padding: 0;
-  list-style: none;
   display: flex;
-  flex-wrap: wrap;
   gap: 30px;
+  flex-wrap: wrap;
+}
+
+.border-portf {
+  border-bottom: 1px solid var(--line-color);
+  border-left: 1px solid var(--line-color);
+  border-right: 1px solid var(--line-color);
+  padding: 20px 24px;
 }
 
 .projects-items {
@@ -491,6 +479,7 @@ button {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-bottom: 4px;
 }
 
 .link:visited {

@@ -36,28 +36,25 @@
             </li>
             <li class="nav-items"><a href="" class="link">Контакти</a></li>
           </ul>
-
-          <ul class="auth-nav list">
-            <li class="nav-items">
-              <a href="mailto:info@devstudio.com" class="link"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="nav-items">
-              <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
-            </li>
-          </ul>
         </nav>
+
+        <ul class="auth-nav list">
+          <li class="nav-items">
+            <a href="mailto:info@devstudio.com" class="link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="nav-items">
+            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+          </li>
+        </ul>
       </div>
     </header>
     <main>
       <!--hero-->
       <section class="hero">
-        <div class="hero-container">
-          <h1 class="hero-title">
-            Ефективні рішення для <br />
-            вашого бізнесу
-          </h1>
+        <div class="container">
+          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
           <button type="button" class="hero-button">Замовити послугу</button>
         </div>
       </section>
@@ -133,7 +130,7 @@
 
       <!--team-->
 
-      <section class="section-team">
+      <section class="section-team section">
         <div class="team container">
           <h2 class="section-title">Наша команда</h2>
           <ul class="list section-members">
@@ -144,8 +141,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="members">Ігор Дем'яненко</h3>
-              <p lang="en" class="team-text">Product Designer</p>
+              <div class="member-text">
+                <h3 class="members">Ігор Дем'яненко</h3>
+                <p lang="en" class="team-text">Product Designer</p>
+              </div>
             </li>
 
             <li class="team-member">
@@ -155,8 +154,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="members">Ольга Рєпіна</h3>
-              <p lang="en" class="team-text">Frontend Developer</p>
+              <div class="member-text">
+                <h3 class="members">Ольга Рєпіна</h3>
+                <p lang="en" class="team-text">Frontend Developer</p>
+              </div>
             </li>
 
             <li class="team-member">
@@ -166,8 +167,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="members">Микола Тарасов</h3>
-              <p lang="en" class="team-text">Marketing</p>
+              <div class="member-text">
+                <h3 class="members">Микола Тарасов</h3>
+                <p lang="en" class="team-text">Marketing</p>
+              </div>
             </li>
 
             <li class="team-member">
@@ -177,8 +180,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="members">Михайло Єрмаков</h3>
-              <p lang="en" class="team-text">UI Designer</p>
+              <div class="member-text">
+                <h3 class="members">Михайло Єрмаков</h3>
+                <p lang="en" class="team-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -187,13 +192,13 @@
 
     <!--contacts-->
     <footer class="footer">
-      <div class="footer container">
+      <div class="container">
         <a href="./index.html" class="logo-fotter"
           ><span class="web-logo">Web</span>Studio</a
         >
         <address>
           <ul class="list-fotter">
-            <li class="adress">
+            <li class="adress item">
               <a
                 href="https://goo.gl/maps/sFk5yyz6UHV8gfSE6"
                 class="adress"
