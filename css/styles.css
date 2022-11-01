@@ -419,7 +419,7 @@ button {
   background-color: var(--acent-color);
 }
 .button:focus {
-  color: var(--acent-color);
+  color: var(--secondary-text-color);
 }
 .button.primary {
   color: var(--background-color);
