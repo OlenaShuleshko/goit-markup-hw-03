@@ -170,9 +170,13 @@ button {
 
 /*--hero--*/
 
-.hero-title,
 .section-title {
   color: var(--main-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .hero {
@@ -226,6 +230,16 @@ button {
 
 /*--what we do--*/
 
+.section-title {
+  color: var(--main-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -252,16 +266,7 @@ button {
   width: 270px;
 }
 
-.section-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.15;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-
-  text-align: center;
-  margin-bottom: 50px;
-}
+/*--section-title для команди вище у 'what we do'--*/
 
 .feature-list .title {
   color: var(--main-text-color);
