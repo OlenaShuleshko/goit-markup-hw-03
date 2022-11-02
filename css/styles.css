@@ -111,7 +111,6 @@ button {
 }
 .page-header {
   border-bottom: 1px solid rgba(236, 236, 236, 1);
-  display: flex;
 }
 
 .nav-items {
@@ -197,6 +196,7 @@ button {
   line-height: 1.4;
   letter-spacing: 0.06em;
   margin-bottom: 30px;
+  text-transform: uppercase;
 }
 
 /*--кнопка замовити послугу--*/
@@ -255,8 +255,13 @@ button {
 
 .features-list,
 .section-list,
-.section-members,
-.list {
+.section-members {
+  gap: 30px;
+  flex-wrap: wrap;
+  display: flex;
+}
+.site-nav,
+.auth-nav {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
@@ -330,6 +335,9 @@ button {
   padding: 60px 0;
   background-color: var(--background-footer-color);
 }
+.footer-item {
+  margin-bottom: 9px;
+}
 
 .adress {
   font-family: "Roboto";
@@ -341,7 +349,7 @@ button {
   color: var(--secondary-text-color);
   margin-top: 20px;
 }
-.adress .item {
+.adress {
   margin-top: 9px;
 }
 .adress:visited {
@@ -394,6 +402,7 @@ button {
 .filters {
   display: flex;
   justify-content: center;
+  gap: 8px;
   margin-bottom: 50px;
 }
 /*--  margin-top: 10px;
@@ -402,11 +411,11 @@ button {
 
 .button {
   background-color: var(--buttons-port-color);
-  color: var(--secondary-color);
+  color: var(--main-text-color);
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 63;
+  line-height: 1.63;
   letter-spacing: 0.03em;
   border-width: 0;
   border-radius: 4px;
@@ -415,7 +424,7 @@ button {
 }
 
 .button:hover {
-  color: var(--buttons-port-color);
+  color: var(--background-color);
   background-color: var(--acent-color);
 }
 .button:focus {
